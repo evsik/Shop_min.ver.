@@ -1,0 +1,29 @@
+npm i -D webpack webpack-cli
+
+//for css
+npm i -D css-loader mini-css-extract-plugin
+
+//for html
+npm i -D html-webpack-plugin
+
+npm install copy-webpack-plugin --save-dev
+
+npm i bootstrap jquery popper.js
+
+npm i -D webpack-dev-server
+
+ npm i vue
+
+npm i vue-loader vue-template-compiler -D
+
+ npm i file-loader
+
+ npm i -D express nodemon
+
+ //Установка vue cli глобально
+ sudo npm install @vue/cli -g
+
+
+
+
+

@@ -1,12 +1,32 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <HeaderBlock ref="header">
+      <router-link to="/">
+        <div class="b-logo">
+          <h1>
+            E-SHOP
+          </h1>
+        </div>
+      </router-link>
+    </HeaderBlock>
     <router-view/>
+
+    <footer/>
   </div>
+
 </template>
+
+<script>
+import HeaderBlock from "./components/Header.vue";
+
+export default {
+  name: "App",
+  components: {
+    HeaderBlock
+  },
+
+}
+</script>
 
 <style lang="scss">
 #app {
