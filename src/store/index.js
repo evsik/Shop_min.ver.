@@ -43,10 +43,10 @@ const store = new Vuex.Store({
             let reg = new RegExp(searchText, 'i');
             state.itemsFiltered = state.itemsFiltered.filter(item => item.product_name.match(reg))
         },
-        sumBasket(state) {
-            let sum = state.basketItems.forEach((item) => (sum += +item.price * +item.quantity))
-            return sum
-        }
+        // sumBasket(state) {
+        //     let sum = state.basketItems.forEach((item) => (sum += +item.price * +item.quantity))
+        //     return sum
+        // }
     }
 })
 
